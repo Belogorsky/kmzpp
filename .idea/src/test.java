@@ -18,7 +18,7 @@ public class test {
         File testFile = new File("test.txt");
         lines = new ArrayList<String>();
         GetContents(testFile);
-       //write("out.txt", lines);
+        write("out.txt", lines);
 
     }
 
